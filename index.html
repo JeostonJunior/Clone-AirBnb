@@ -16,12 +16,82 @@
       crossorigin="anonymous"
     />
 
+    <!-- CSS-->
+    <link rel="stylesheet" href="style.css" />
+
     <title>Hello, world!</title>
   </head>
   <body>
-    <div class="container-fluid container bg-primary display-1">
-      1st section
+    <div class="container-fluid" style="height: 100vh">
+      <nav
+        class="bg-primaryX text-lightX navbar navbar-expand-xl navbar-dark navbar-togglable fixed-top"
+      >
+        <div class="container">
+          <!-- Brand -->
+          <a class="navbar-brand" href="index.html"> Airbnb </a>
+
+          <!-- Toggler -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarCollapse"
+            aria-controls="navbarCollapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Collapse -->
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <!-- Links -->
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active mx-4">
+                <a class="nav-link" href="#">Become a host</a>
+              </li>
+              <li class="nav-item mx-4">
+                <a class="nav-link" href="#">Help</a>
+              </li>
+              <li class="nav-item mx-4">
+                <a class="nav-link" href="#">Sign up</a>
+              </li>
+              <li class="nav-item mx-4">
+                <a class="nav-link" href="#">Login</a>
+              </li>
+            </ul>
+          </div>
+          <!-- / .navbar-collapse -->
+        </div>
+        <!-- / .container -->
+      </nav>
+
+      <section class="section section-top section-full">
+        <!-- Cover -->
+        <div class="bg-cover"></div>
+
+        <!-- Overlay -->
+        <div class="bg-overlay"></div>
+
+        <!-- Triangles -->
+        <div
+          class="bg-triangle bg-triangle-light bg-triangle-bottom bg-triangle-left"
+        ></div>
+        <div
+          class="bg-triangle bg-triangle-light bg-triangle-bottom bg-triangle-right"
+        ></div>
+
+        <!-- Content -->
+        <div class="container">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-md-8 col-lg-7"></div>
+          </div>
+          <!-- / .row -->
+        </div>
+        <!-- / .container -->
+      </section>
     </div>
+
     <div class="container-fluid container bg-secondary display-1">
       2nd section
     </div>
