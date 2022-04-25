@@ -25,6 +25,11 @@
           padding-bottom: 7.5rem;
         }
       }
+      .br0,
+      .gj-datepicker-bootstrap [role="right-icon"] button,
+      .form-control {
+        border-radius: 0 !important;
+      }
     </style>
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -119,34 +124,48 @@
 
       <div class="card" style="width: 27rem">
         <div class="card-body">
-          <h1 class="h3">Book homes, hotels, and more on Airbnb</h1>
+          <h1 class="h3 mb-3">Book homes, hotels, and more on Airbnb</h1>
           <form>
             <div class="form-group">
-              <label for="locationInput">WHERE</label>
-              <input
-                type="email"
-                class="form-control"
-                id="locationInput"
-                aria-describedby="locationInputHelp"
-                placeholder="Anywhere"
-              />
-              <small id="locationInputHelp" class="form-text text-muted sr-only"
-                >Please type in your desired destination.</small
-              >
+              <div class="row px-3">
+                <label class="mb-0" for="locationInput mb-0 mt-5">WHERE</label>
+                <input
+                  type="email"
+                  class="form-control w-100 br0"
+                  id="locationInput"
+                  aria-describedby="locationInputHelp"
+                  placeholder="Anywhere"
+                />
+                <small
+                  id="locationInputHelp"
+                  class="form-text text-muted sr-only"
+                  >Please type in your desired destination.</small
+                >
+              </div>
             </div>
-            Start Date: <input id="startDate" width="276" /><br />
-            End Date:<input id="endDate" width="276" />
-            <div class="row">
-              <div class="col-sm-6">
+            <div class="row px-3">
+              <div class="col-sm-6 px-0">
+                Start Date: <input class="br0" id="startDate" />
+              </div>
+              <div class="col-sm-6 px-0 br0">
+                End Date: <input class="br0" id="endDate" />
+              </div>
+            </div>
+            <div class="row px-3">
+              <div class="col-sm-6 px-0 br0">
                 <div class="form-group">
-                  <label for="exampleFormControlSelect1">ADULTS</label>
+                  <label class="mb-0" for="exampleFormControlSelect1"
+                    >ADULTS</label
+                  >
                   <input class="form-control" type="number" name="" id="" />
                 </div>
               </div>
 
-              <div class="col-sm-6">
+              <div class="col-sm-6 px-0 br0">
                 <div class="form-group">
-                  <label for="exampleFormControlSelect1">CHILDREN</label>
+                  <label class="mb-0" for="exampleFormControlSelect2"
+                    >CHILDREN</label
+                  >
                   <input
                     class="form-control"
                     type="number"
