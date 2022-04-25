@@ -29,7 +29,6 @@
         <div class="container">
           <!-- Brand -->
           <a class="navbar-brand" href="index.html"> Airbnb </a>
-
           <!-- Toggler -->
           <button
             class="navbar-toggler"
@@ -42,7 +41,6 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-
           <!-- Collapse -->
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <!-- Links -->
@@ -72,7 +70,6 @@
 
         <!-- Overlay -->
         <div class="bg-overlay"></div>
-
         <!-- Triangles -->
         <div
           class="bg-triangle bg-triangle-light bg-triangle-bottom bg-triangle-left"
@@ -80,7 +77,6 @@
         <div
           class="bg-triangle bg-triangle-light bg-triangle-bottom bg-triangle-right"
         ></div>
-
         <!-- Content -->
         <div class="container">
           <div class="row justify-content-center align-items-center">
@@ -90,25 +86,41 @@
         </div>
         <!-- / .container -->
       </section>
+
       <div class="container">
         <div class="row">
           <div class="col-sm-5">
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
+                <h1 class="h3">Book homes, hotels, and more on Airbnb</h1>
+
+                <form>
+                  <div class="form-group">
+                    <label for="locationInput">WHERE</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="locationInput"
+                      aria-describedby="locationInputHelp"
+                      placeholder="Anywhere"
+                    />
+                    <small
+                      id="locationInputHelp"
+                      class="form-text text-muted sr-only"
+                      >Please type in your desired destination.</small
+                    >
+                  </div>
+                </form>
+
+                <a href="#" class="btn btn-danger btn-block">Search</a>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+
+    <div class="container-fluid container bg-secondary display-1"></div>
 
     <div class="container-fluid container bg-secondary display-1">
       2nd section
