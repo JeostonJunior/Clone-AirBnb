@@ -17,3 +17,11 @@
   background-position: 50%;
   background-size: cover;
 }
+
+.border-left {
+  border-left: 1px solid #dee2e6 !important;
+}
+
+.border-secondary {
+  border-color: #6c757d !important;
+}
