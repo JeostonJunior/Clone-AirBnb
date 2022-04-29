@@ -54,7 +54,7 @@ form {
 
 .btnColor {
   position: absolute;
-  width: 108px;
+  width: 120px;
   height: 100%;
   background: linear-gradient(to right, rgb(69, 131, 247), rgb(13, 78, 199));
   border-radius: 30px;
