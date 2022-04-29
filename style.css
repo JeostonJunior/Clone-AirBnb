@@ -31,3 +31,23 @@ body {
 .border-secondary {
   border-color: #6c757d !important;
 }
+
+@media (min-width: 768px) {
+  section {
+    padding-top: 13.3125rem;
+  }
+
+  section {
+    padding-bottom: 7.5rem;
+  }
+}
+.br0,
+.gj-datepicker-bootstrap [role="right-icon"] button,
+.form-control {
+  border-radius: 0 !important;
+}
+.card-img-top {
+  max-height: 160px;
+  min-height: 160px;
+  object-fit: cover;
+}

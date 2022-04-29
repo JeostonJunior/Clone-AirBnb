@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Bootstrap CSS -->
+    <!-- LINKS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -13,49 +13,31 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
-
-    <title>Hello, world!</title>
-    <style>
-      @media (min-width: 768px) {
-        section {
-          padding-top: 13.3125rem;
-        }
-
-        section {
-          padding-bottom: 7.5rem;
-        }
-      }
-      .br0,
-      .gj-datepicker-bootstrap [role="right-icon"] button,
-      .form-control {
-        border-radius: 0 !important;
-      }
-      .card-img-top {
-        max-height: 160px;
-        min-height: 160px;
-        object-fit: cover;
-      }
-    </style>
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
+    <link
+      href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
     <link
       href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
       rel="stylesheet"
       integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
       crossorigin="anonymous"
     />
+
+    <title>Hello, world!</title>
+
+    <!--SCRIPTS-->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+
     <script
       src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js"
       type="text/javascript"
     ></script>
-    <link
-      href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css"
-      rel="stylesheet"
-      type="text/css"
-    />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
   </head>
 
@@ -539,27 +521,6 @@
         </div>
       </footer>
     </div>
-    <script>
-      var today = new Date(
-        new Date().getFullYear(),
-        new Date().getMonth(),
-        new Date().getDate()
-      );
-      $("#startDate").datepicker({
-        uiLibrary: "bootstrap4",
-        iconsLibrary: "fontawesome",
-        minDate: today,
-        maxDate: function () {
-          return $("#endDate").val();
-        },
-      });
-      $("#endDate").datepicker({
-        uiLibrary: "bootstrap4",
-        iconsLibrary: "fontawesome",
-        minDate: function () {
-          return $("#startDate").val();
-        },
-      });
-    </script>
+    <script src="calendar.js"></script>
   </body>
 </html>
