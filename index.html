@@ -111,84 +111,45 @@
         <!-- / .container -->
       </section>
 
-      <div class="card border-0" style="width: 27rem">
-        <div class="card-body">
-          <h1 class="h3 mb-3">Book homes, hotels, and more on Airbnb</h1>
-          <form>
-            <div class="form-group">
-              <div class="row px-3">
-                <label class="mb-0" for="locationInput mb-0 mt-5">WHERE</label>
-                <input
-                  type="email"
-                  class="form-control w-100 br0"
-                  id="locationInput"
-                  aria-describedby="locationInputHelp"
-                  placeholder="Anywhere"
-                />
-                <small
-                  id="locationInputHelp"
-                  class="form-text text-muted sr-only"
-                  >Please type in your desired destination.</small
-                >
-              </div>
-            </div>
-            <div class="row px-3">
-              <div class="col-sm-6 px-0 mt-3">
-                Start Date: <input class="br0" id="startDate" />
-              </div>
-              <div class="col-sm-6 px-0 br0 mt-3">
-                End Date: <input class="br0 ms-1" id="endDate" />
-              </div>
-            </div>
-            <div class="row px-3">
-              <div class="col-sm-6 px-0 br0">
-                <div class="form-group">
-                  <label class="mb-0 mt-3" for="exampleFormControlSelect1"
-                    >ADULTS</label
-                  >
-                  <input class="form-control" type="number" name="" id="" />
-                </div>
-              </div>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <form>
+              <div class="form-group">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <label class="mb-0" for="locationInput mb-0 mt-5"
+                      >WHERE</label
+                    >
+                    <input
+                      type="email"
+                      class="form-control w-100 br0"
+                      id="locationInput"
+                      aria-describedby="locationInputHelp"
+                      placeholder="Anywhere"
+                    />
+                  </li>
 
-              <div class="col-sm-6 px-0 br0">
-                <div class="form-group">
-                  <label class="mb-0 mt-3" for="exampleFormControlSelect2"
-                    >CHILDREN</label
-                  >
-                  <input
-                    class="form-control ms-1"
-                    type="number"
-                    name="numberChildren"
-                    id=""
-                  />
-                </div>
+                  <li class="nav-item">
+                    Start Date: <input class="br0" id="startDate" />
+                  </li>
+
+                  <li class="nav-item">
+                    End Date: <input class="br0 ms-1" id="endDate" />
+                  </li>
+
+                  <li class="nav-item">
+                    <label class="mb-0 ms-1" for="exampleFormControlSelect1"
+                      >ADULTS</label
+                    >
+                    <input class="form-control" type="number" name="" id="" />
+                  </li>
+                </ul>
               </div>
-            </div>
-          </form>
-          <div>
-            <p></p>
-          </div>
-          <div class="d-grid gap-1">
-            <a class="btn btn-primary" type="button">Button</a>
+            </form>
           </div>
         </div>
-      </div>
-      <div class="card my-4 p-2 small border-0" style="width: 27rem">
-        <div class="row no-gutters">
-          <div
-            class="col-md-7 d-flex align-items-center border-left border-secondary"
-          >
-            <p class="my-0 px-3">
-              Earn up to <strong>$5530/month</strong> hosting your place in Rome
-            </p>
-          </div>
-          <div class="col-md-5 border-left border-secondary">
-            <div class="card-body">
-              <p class="card-text">Become a host <span>&gt;</span></p>
-            </div>
-          </div>
-        </div>
-      </div>
+      </nav>
     </div>
     <div class="container-fluid container">
       <div id="demo" class="carousel slide" data-bs-ride="carousel">
