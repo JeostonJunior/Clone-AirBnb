@@ -1,3 +1,7 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -9,8 +13,14 @@ body {
   src: url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 }
 
-* {
-  font-family: "Roboto", sans-serif;
+@media (min-width: 768px) {
+  section {
+    padding-top: 13.3125rem;
+  }
+
+  section {
+    padding-bottom: 7.5rem;
+  }
 }
 
 .bg-cover {
@@ -41,15 +51,6 @@ body {
   border-color: #6c757d !important;
 }
 
-@media (min-width: 768px) {
-  section {
-    padding-top: 13.3125rem;
-  }
-
-  section {
-    padding-bottom: 7.5rem;
-  }
-}
 .br0,
 .gj-datepicker-bootstrap [role="right-icon"] button,
 .form-control {
@@ -85,6 +86,10 @@ body {
   color: rgb(255, 255, 255);
 }
 
+.linksNav:visited {
+  color: rgb(255, 255, 255);
+}
+
 .linksNav:hover {
   color: #ff385c;
 }
@@ -114,6 +119,7 @@ input:focus {
   border-radius: 20px !important;
   margin-bottom: 5px;
   color: #717171;
+  cursor: pointer;
 }
 
 /* input name*/
@@ -124,6 +130,7 @@ input:focus {
   color: #222222;
   text-indent: 5px;
   margin-top: 10px;
+  cursor: pointer;
 }
 .nameInput {
   margin-left: 1.3em;
@@ -132,6 +139,7 @@ input:focus {
   text-indent: 13px;
   text-indent: 13px;
   margin-top: 10px;
+  cursor: pointer;
 }
 
 .btn-Css {
