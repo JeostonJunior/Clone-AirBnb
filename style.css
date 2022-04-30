@@ -73,14 +73,23 @@ input:focus {
   font-size: 0.875rem;
   line-height: 1.5;
   margin: auto;
-  text-indent: 19px;
+  text-indent: 11px;
   height: calc(3rem + 2px) !important;
   border-radius: 20px !important;
   margin-bottom: 5px;
+  color:#717171;
 }
 
 /* input name*/
 
+.nameInputLocal{
+  margin-left: 1.3em;
+  margin-bottom: -15px;
+  color: #222222;
+  text-indent: 5px;
+  margin-top: 10px;
+
+}
 .nameInput {
   margin-left: 1.3em;
   margin-bottom: -15px;
@@ -92,7 +101,7 @@ input:focus {
 
 .btn-Css {
   display: inline-block;
-  margin-top: -5px;
+  margin-top: -9px;
   margin-bottom: 10px;
   width: 100%;
   font-weight: 400;
