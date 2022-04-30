@@ -1,11 +1,31 @@
+* {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.8px;
+}
+
 body {
   margin: 0;
   padding: 0;
   background-color: black;
 }
 
+@font-face {
+  font-family: "Roboto", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+}
+
+@media (min-width: 768px) {
+  section {
+    padding-top: 13.3125rem;
+  }
+
+  section {
+    padding-bottom: 7.5rem;
+  }
+}
+
 .bg-cover {
-  background-image: url(https://images.unsplash.com/photo-1542833278-f4deb3180291?ixlib=rb-1.2.1&auto=format&fit=crop&w=1487&q=80);
+  background-image: url(https://images.unsplash.com/photo-1460627390041-532a28402358?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1487&q=80);
   position: absolute;
   top: 0;
   bottom: 0;
@@ -32,15 +52,6 @@ body {
   border-color: #6c757d !important;
 }
 
-@media (min-width: 768px) {
-  section {
-    padding-top: 13.3125rem;
-  }
-
-  section {
-    padding-bottom: 7.5rem;
-  }
-}
 .br0,
 .gj-datepicker-bootstrap [role="right-icon"] button,
 .form-control {
@@ -52,12 +63,65 @@ body {
   object-fit: cover;
 }
 
+.card-title {
+  margin-bottom: 0.5rem;
+  color: white;
+  letter-spacing: 1px;
+}
+.card-body {
+  flex: 1 1 auto;
+  padding: 1rem 1rem;
+  background-color: black;
+  letter-spacing: 0.8px;
+}
+
+.card-text {
+  margin-bottom: 0;
+  color: white;
+}
+
+.TextNames {
+  color: white;
+  padding: 2px;
+  margin-left: 2px;
+}
 /*------------*/
+.navbar-brand {
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 1.25rem;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  margin-right: auto;
+}
+
+.linksNav {
+  color: rgb(255, 255, 255);
+}
+
+.linksNav:visited {
+  color: rgb(255, 255, 255);
+}
+
+.linksNav:hover {
+  color: #ff385c;
+}
 
 input {
   border: none;
   outline: none;
 }
+
 input:focus {
   outline: none !important;
 }
@@ -73,14 +137,24 @@ input:focus {
   font-size: 0.875rem;
   line-height: 1.5;
   margin: auto;
-  text-indent: 19px;
+  text-indent: 11px;
   height: calc(3rem + 2px) !important;
   border-radius: 20px !important;
   margin-bottom: 5px;
+  color: #717171;
+  cursor: pointer;
 }
 
 /* input name*/
 
+.nameInputLocal {
+  margin-left: 1.3em;
+  margin-bottom: -15px;
+  color: #222222;
+  text-indent: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
 .nameInput {
   margin-left: 1.3em;
   margin-bottom: -15px;
@@ -88,11 +162,12 @@ input:focus {
   text-indent: 13px;
   text-indent: 13px;
   margin-top: 10px;
+  cursor: pointer;
 }
 
 .btn-Css {
   display: inline-block;
-  margin-top: -5px;
+  margin-top: -9px;
   margin-bottom: 10px;
   width: 100%;
   font-weight: 400;
@@ -142,6 +217,13 @@ input:focus {
 }
 
 .corzinha {
-  background-color: #ff385c;
-  border-radius: 15px;
+  background-color: transparent;
+}
+
+.h6 {
+  color: #ffff;
+}
+
+.text-white {
+  color: #ffff !important;
 }
