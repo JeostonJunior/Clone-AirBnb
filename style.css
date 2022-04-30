@@ -217,6 +217,5 @@ input:focus {
 }
 
 .corzinha {
-  background-color: #ff385c;
-  border-radius: 15px;
+  background-color: transparent;
 }
