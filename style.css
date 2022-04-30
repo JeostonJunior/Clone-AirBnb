@@ -53,6 +53,24 @@ body {
 }
 
 /*------------*/
+.navbar-brand {
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 1.25rem;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  margin-right: auto;
+}
 
 input {
   border: none;
@@ -77,18 +95,17 @@ input:focus {
   height: calc(3rem + 2px) !important;
   border-radius: 20px !important;
   margin-bottom: 5px;
-  color:#717171;
+  color: #717171;
 }
 
 /* input name*/
 
-.nameInputLocal{
+.nameInputLocal {
   margin-left: 1.3em;
   margin-bottom: -15px;
   color: #222222;
   text-indent: 5px;
   margin-top: 10px;
-
 }
 .nameInput {
   margin-left: 1.3em;
