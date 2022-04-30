@@ -219,3 +219,11 @@ input:focus {
 .corzinha {
   background-color: transparent;
 }
+
+.h6 {
+  color: #ffff;
+}
+
+.text-white {
+  color: #ffff !important;
+}
