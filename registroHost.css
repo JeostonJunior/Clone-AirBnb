@@ -1,0 +1,86 @@
+.bg-left {
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(
+    to bottom,
+    rgb(211, 38, 119),
+    rgb(145, 33, 146),
+    rgb(67, 28, 160)
+  );
+
+  border: none;
+}
+
+.h1 {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 50px;
+  right: 0;
+  display: flex;
+  justify-content: center;
+
+  flex-direction: column;
+}
+
+.center-buttons {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.btn-margin {
+  margin: 60px;
+  padding: 15px;
+  width: 50%;
+  display: flex;
+}
+
+.h1-text {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.div-link {
+  text-align: left !important;
+  padding-top: 15px;
+  width: 100%;
+}
+
+.div-img {
+  margin-left: auto;
+  height: 70px;
+  width: 70px;
+  border-radius: 20px;
+  padding-top: 5px;
+}
+
+.img {
+  object-fit: cover;
+  vertical-align: bottom;
+  border-radius: 6px;
+
+  width: 100%;
+}
+
+.link-button {
+  text-decoration: none;
+}
+
+.link-button {
+  color: rgb(0, 0, 0);
+}
+
+.link-button:visited {
+  color: rgb(0, 0, 0);
+}
+
+.link-button:hover {
+  color: rgb(0, 0, 0);
+}
