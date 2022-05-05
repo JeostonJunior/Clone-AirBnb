@@ -62,16 +62,107 @@
               <a class="nav-link linksNav" href="#">Experiências Online</a>
             </li>
             <li class="nav-item mx-2">
-              <a class="nav-link linksNav" href="cadastro.html">Cadastre-se</a>
+              <a class="nav-link linksNav" data-bs-toggle="modal" data-bs-target="#CadModal">Cadastre-se</a>
             </li>
             <li class="nav-item mx-2">
-              <a class="nav-link linksNav" href="login.html">Login</a>
+              <a class="nav-link linksNav" data-bs-toggle="modal" data-bs-target="#LogModal" >Login</a>
             </li>
           </ul>
           <!-- / .navbar-collapse -->
         </div>
         <!-- / .container -->
       </nav>
+
+      <body>
+        <!-- The Signup Modal -->
+        <div class="modal fade" id="CadModal">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <!-- Modal Header -->
+              <div class="modal-header text-center">
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                <h4 class="modal-title w-100">Cadastro</h4>
+              </div>
+              <!-- Modal body -->
+              <div class="modal-body">
+                <div class="container mt-3">
+                  <form action="#">
+                    <div class="mb-3">
+                      <label for="pwd">Número:</label>
+                      <input type="password" class="form-control" id="cel" placeholder="Digite seu número de celular" name="celnum" required>
+                    </div>
+                    <div class="mb-3">
+                      <label for="pwd">Nome:</label>
+                      <input type="password" class="form-control" id="name" placeholder="Digite seu nome" name="name" required>
+                    </div>
+                    <div class="mb-3">
+                      <label for="pwd">Sobrenome:</label>
+                      <input type="password" class="form-control" id="lastname" placeholder="Digite seu sobrenome" name="lastname" required>
+                    </div>
+                    <div class="mb-3">
+                      <label for="pwd">Data de nascimento:</label>
+                      <input type="password" class="form-control" id="borndata" placeholder="Digite sua data de nascimento" name="bordata" required>
+                    </div>
+                    <div class="mb-3 mt-3">
+                      <label for="email">Email:</label>
+                      <input type="email" class="form-control" id="email" placeholder="Digite seu email" name="email" required>
+                    </div>
+                    <div class="mb-3">
+                      <label for="pwd">Senha:</label>
+                      <input type="password" class="form-control" id="pwd" placeholder="Digite a senha" name="pswd" required>
+                    </div>
+                    <div class="mb-3">
+                      <label for="pwdconfirm">Confirmar senha:</label>
+                      <input type="password" class="form-control" id="pwd" placeholder="Confirme a senha" name="pswdconfirm" required>
+                    </div>
+                    <!-- <button type="submit" class="btn btn-primary">Cadastrar</button> -->
+                  </form>
+                </div>
+              </div>
+              <!-- Modal footer -->
+              <div class="modal-footer">
+                <div class="col-md-12 text-center">
+                  <button type="submit" class="btn btn-danger" data-bs-dismiss="modal">Cadastrar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- The Signin Modal -->
+        <div class="modal fade" id="LogModal">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <!-- Modal Header -->
+              <div class="modal-header text-center">
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                <h4 class="modal-title w-100">Cadastro</h4>
+              </div>
+              <!-- Modal body -->
+              <div class="modal-body">
+                <div class="container mt-3">
+                  <form action="#">
+                    <div class="mb-3 mt-3">
+                      <label for="email">Email:</label>
+                      <input type="email" class="form-control" id="email" placeholder="Digite seu email" name="email" required>
+                    </div>
+                    <div class="mb-3">
+                      <label for="pwd">Senha:</label>
+                      <input type="password" class="form-control" id="pwd" placeholder="Digite a senha" name="pswd" required>
+                    </div>
+                    <!-- <button type="submit" class="btn btn-primary">Cadastrar</button> -->
+                  </form>
+                </div>
+              </div>
+              <!-- Modal footer -->
+              <div class="modal-footer">
+                <div class="col-md-12 text-center">
+                  <button type="submit" class="btn btn-danger" data-bs-dismiss="modal">Entrar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
       <section class="section section-top section-full">
         <!-- Cover -->
