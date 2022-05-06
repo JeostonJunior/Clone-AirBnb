@@ -14,7 +14,7 @@
     />
     <link rel="stylesheet" href="registroHost.css" />
 
-    <title>Hello, world!</title>
+    <title>FINDINN - CADASTRO ACOMODAÇÃO</title>
   </head>
   <body>
     <section>
@@ -80,7 +80,7 @@
                         type="text"
                         class="form-control"
                         id="inputAddress"
-                        placeholder="Rua dos Bobos, nº 0"
+                        placeholder="20.20-20"
                       />
                     </div>
                     <div class="form-group col-md-6 ps-1">
@@ -89,7 +89,7 @@
                         type="text"
                         class="form-control"
                         id="inputAddress2"
-                        placeholder="Apartamento, hotel, casa, etc."
+                        placeholder="Rua dos Bobos"
                       />
                     </div>
                   </div>
@@ -227,20 +227,20 @@
                           class="custom-control-label tamanho-label"
                           for="customCheck1"
                           >Garagem</label
-                        >
+                        ><br />
                         <input
                           type="checkbox"
-                          class="form-check-input"
+                          class="form-check-input ms-1"
                           id="customCheck1"
                         />
                         <label
                           class="custom-control-label tamanho-label"
                           for="customCheck1"
                           >Alarme de Incêndio</label
-                        ><br />
+                        >
                         <input
                           type="checkbox"
-                          class="form-check-input ms-1"
+                          class="form-check-input"
                           id="customCheck1"
                         />
                         <label
@@ -271,17 +271,16 @@
                         accept="image/png, image/jpeg"
                       />
                     </div>
-                    <div class="form-group paddingDescricao col-md-4">
-                      <label for="inputDescricao">Descrição</label>
-                      <textarea
-                        id="descricao"
-                        name="descricao"
-                        rows="5"
-                        cols="50"
-                      >
-Fale Sobre </textarea
-                      >
-                    </div>
+                  </div>
+                  <div class="form-group col-md-2 mt-1">
+                    <label for="inputDescricao">Descrição</label>
+                    <textarea
+                      id="descricao"
+                      name="descricao"
+                      rows="5"
+                      cols="70"
+                    >
+                    </textarea>
                   </div>
                   <div class="btn-div">
                     <button type="submit" class="btn btn-cadastrar">
