@@ -1,0 +1,52 @@
+.centralize {
+  display: flex;
+  margin-left: 40px;
+}
+
+.content {
+  width: 75%;
+  margin-top: 25px;
+}
+
+.content-page {
+  display: flex;
+  justify-content: center;
+}
+
+.tamanho {
+  height: 600px !important;
+  width: 100%;
+}
+.margin-coments {
+  margin-top: 60px;
+  padding: 5px;
+}
+
+.bg-gradient {
+  /* fallback for old browsers */
+  background: #e61e4d;
+
+  background: -webkit-linear-gradient(
+    to right,
+    rgb(227, 28, 95),
+    rgb(215, 4, 102)
+  );
+  color: rgb(255, 255, 255);
+  border: none;
+}
+
+.btn:hover {
+  color: rgb(255, 255, 255);
+}
+
+.div-form {
+  border: 1px solid black;
+  border-radius: 15px;
+  width: 100%;
+}
+.btn-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 5px;
+}
