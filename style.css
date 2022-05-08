@@ -207,10 +207,29 @@ input:focus {
   background-color: transparent;
 }
 
-.h6 {
+.footer-text {
   color: #ffff;
+  text-align: center;
 }
 
 .text-white {
   color: #ffff !important;
+}
+
+.btn-cadastrar {
+  margin-top: 10px;
+  background: #e61e4d;
+
+  background: -webkit-linear-gradient(
+    to right,
+    rgb(227, 28, 95),
+    rgb(215, 4, 102)
+  );
+
+  border: none;
+  color: white;
+}
+
+.modal-content{
+  border-radius: 15px;
 }

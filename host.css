@@ -92,3 +92,8 @@
   font-size: 56px;
   color: black;
 }
+
+.footer-text {
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
