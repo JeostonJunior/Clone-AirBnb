@@ -14,3 +14,8 @@ a:visited {
 a:hover {
   color: black;
 }
+
+.footer-text {
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
