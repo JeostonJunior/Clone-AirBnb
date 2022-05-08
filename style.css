@@ -54,9 +54,6 @@ body {
 
 .br0,
 .gj-datepicker-bootstrap [role="right-icon"] button,
-.form-control {
-  border-radius: 0 !important;
-}
 .card-img-top {
   max-height: 160px;
   min-height: 160px;
@@ -107,6 +104,7 @@ body {
 
 .linksNav {
   color: rgb(255, 255, 255);
+  cursor: pointer;
 }
 
 .linksNav:visited {
