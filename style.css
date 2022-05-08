@@ -231,3 +231,7 @@ input:focus {
   border: none;
   color: white;
 }
+
+.modal-content{
+  border-radius: 15px;
+}

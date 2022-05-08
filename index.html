@@ -103,18 +103,19 @@
                 <div class="container mt-3">
                   <form action="#">
                     <div class="mb-3">
-                      <label for="pwd">Número:</label>
+                      <label for="cel">Número</label>
                       <input
-                        type="text"
+                        type="tel"
+                        pattern="^\d{2}-\d{5}-\d{4}$"
                         class="form-control"
                         id="cel"
-                        placeholder="(xx) x xxxx-xxxx"
-                        name="celnum"
+                        placeholder="(xx) xxxxx-xxxx"
+                        name="cel"
                         required
                       />
                     </div>
                     <div class="mb-3">
-                      <label for="pwd">Nome:</label>
+                      <label for="name">Nome</label>
                       <input
                         type="text"
                         class="form-control"
@@ -125,7 +126,7 @@
                       />
                     </div>
                     <div class="mb-3">
-                      <label for="pwd">Sobrenome:</label>
+                      <label for="lastname">Sobrenome</label>
                       <input
                         type="text"
                         class="form-control"
@@ -136,7 +137,7 @@
                       />
                     </div>
                     <div class="mb-3">
-                      <label for="pwd">Data de nascimento:</label>
+                      <label for="borndata">Data de nascimento</label>
                       <input
                         type="text"
                         class="form-control"
@@ -147,7 +148,7 @@
                       />
                     </div>
                     <div class="mb-3 mt-3">
-                      <label for="email">Email:</label>
+                      <label for="email">Email</label>
                       <input
                         type="email"
                         class="form-control"
@@ -158,7 +159,7 @@
                       />
                     </div>
                     <div class="mb-3">
-                      <label for="pwd">Senha:</label>
+                      <label for="pwd">Senha</label>
                       <input
                         type="password"
                         class="form-control"
@@ -169,7 +170,7 @@
                       />
                     </div>
                     <div class="mb-3">
-                      <label for="pwdconfirm">Confirmar senha:</label>
+                      <label for="pwdconfirm">Confirme a senha</label>
                       <input
                         type="password"
                         class="form-control"
@@ -179,20 +180,19 @@
                         required
                       />
                     </div>
-                    <!-- <button type="submit" class="btn btn-primary">Cadastrar</button> -->
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                      <div class="col-md-12 text-center">
+                        <button
+                          type="submit"
+                          class="btn btn-cadastrar"
+                          value="cad"
+                        >
+                          Cadastrar
+                        </button>
+                      </div>
+                    </div>
                   </form>
-                </div>
-              </div>
-              <!-- Modal footer -->
-              <div class="modal-footer">
-                <div class="col-md-12 text-center">
-                  <button
-                    type="submit"
-                    class="btn btn-cadastrar"
-                    data-bs-dismiss="modal"
-                  >
-                    Cadastrar
-                  </button>
                 </div>
               </div>
             </div>
@@ -210,14 +210,14 @@
                   class="btn-close"
                   data-bs-dismiss="modal"
                 ></button>
-                <h4 class="modal-title w-100">Cadastro</h4>
+                <h4 class="modal-title w-100">Login</h4>
               </div>
               <!-- Modal body -->
               <div class="modal-body">
                 <div class="container mt-3">
                   <form action="#">
                     <div class="mb-3 mt-3">
-                      <label for="email">Email:</label>
+                      <label for="email">Email</label>
                       <input
                         type="email"
                         class="form-control"
@@ -228,7 +228,7 @@
                       />
                     </div>
                     <div class="mb-3">
-                      <label for="pwd">Senha:</label>
+                      <label for="pwd">Senha</label>
                       <input
                         type="password"
                         class="form-control"
